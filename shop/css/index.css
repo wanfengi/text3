@@ -1,57 +1,62 @@
-#header{
+#header {
     background: url("../img/banner.jpg") center;
     height: 600px;
-
-}
-#header h1,#login {
-    color: #ffffff;
-    border: 50px;
-    padding-top: 50px;
-}
-#cart {
-    width: 200px;
-    height: 20px;
-    background: #000;
-    opacity: 0.5;
-    /*filter:alpha(opacity=50);
-*/
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-    margin-top: 50px;
-    margin-left: 300px;
-    float: left;
 }
 #header img{
     vertical-align: middle;
 }
-
-#header .first-aline{
-    float: left;
-    padding-right: 180px;
-    padding-left: 112px;
-    cursor: pointer;
+#login:hover{
+    text-decoration: underline;
 }
-#login{
-    margin-top: 30px;
-}
-#seconnd-aline{
-    padding: 60px;
-}
-
-#float li{
-    width: 100px;
+#cart{
+    width: 260px;
+    background: #000;
+    opacity: 0.7;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
     height: 30px;
-    text-decoration: none;
-    list-style: none;
-    float: left;
-    /*padding: 10px 70px;*/
-    /*margin-top: 240px;*/
-    background: lightpink;
     cursor: pointer;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.wrapper{
+    width: 1140px;
+    display: block;
+    margin: 0 auto;
 
 }
+.first-line{
+    width: 380px;
+    float: left;
+    color: #ffffff;
+}
+.main-header{
+    height: 100px;
+    line-height: 100px;
+}
+#nav li{
+    width: 190px;
+    height: 40px;
+    float: left;
+    display: block;
+    background: #fa558f;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+#nav li a{
+    color: #ffffff;
+}
+#home-page{
+    margin-left: 100px;
+}
+#nav li:hover{
+    background: #3c3b3b;
+}
+
+
+
 
 
 
