@@ -1,10 +1,11 @@
+/*header开始*/
 #header {
     background: url("../img/banner.jpg") center;
     height: 600px;
 }
-#header img{
-    vertical-align: middle;
-}
+/*#header img{*/
+    /*vertical-align: middle;*/
+/*}*/
 #login a{
     color: #ffffff;
 }
@@ -24,12 +25,7 @@
     margin-top: 35px;
     margin-left: 100px;
 }
-.wrapper{
-    width: 1140px;
-    display: block;
-    margin: 0 auto;
 
-}
 .first-line {
     width: 380px;
     float: left;
@@ -77,15 +73,88 @@
     left:950px;
     cursor: pointer;
 }
+/*header结束*/
 
+/*new product开始*/
+#new-product{
+    height: 350px;
+}
+#new-product .sale{
+    background: url("../img/bg1.jpg") no-repeat center;
+    width: 360px;
+    height: 210px;
+    float: left;
+    margin-left:30px;
+    margin-top: 60px;
 
+}
+#new-product .bg2{
+    background:url("../img/bg2.jpg") no-repeat center;
+}
+#new-product .bg3{
+    background:url("../img/bg3.jpg") no-repeat center;
+    margin-left: 0px;
+}
+#new-product .sale h4{
+    font-size: 30px;
+    color:black;
+    margin-top: 180px;
+    margin-left: 200px;
+}
+/*new product 结束*/
 
+/*product开始*/
 
+.product-info{
+    width: 340px;
+    height: 440px;
+    border: 1px solid moccasin;
+    float: left;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.product-info .new{
+    background: #fa558f;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 10px;
+    float: right;
 
-
-
-
-
+}
+.product-info img{
+    width: 248px;
+    height: 248px;
+    border: 1px solid moccasin;
+}
+.product-detail h4
+{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.product-detail h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.input{
+    width: 180px;
+    height: 25px;
+    margin-top: 10px;
+    text-indent: 10px;
+}
+.buycar{
+    background: darkorange;
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 
 
