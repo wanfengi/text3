@@ -57,12 +57,37 @@
 #submenu{
     background: #fff;
     width: 1140px;
-    height: 250px;
+    height: 280px;
     margin-left:-190px;
     display: none;
 }
 #makeup:hover #submenu{
     display: block;
+}
+ #submenu li{
+    background: #ffffff;
+    clear: both;
+ }
+#nav #submenu li a{
+    color: #666;
+    font-size: 15px;
+    text-align: left;
+}
+#nav #submenu ol{
+    float: left;
+}
+#submenu a:hover{
+    background: #ffffff;
+    text-decoration: underline;
+}
+#submenu .second-nav{
+    border-bottom: 1px solid #aaaaaa;
+    width: 150px;
+    text-align: left;
+    font-size: 15px;
+}
+#submenu .second-nav:hover{
+    background: #ffffff;
 }
 .wrapper P{
     color: #ffffff;
@@ -125,6 +150,9 @@
     width: 248px;
     height: 248px;
     border: 1px solid moccasin;
+}
+#product-detail{
+    background: #aaaaaa;;
 }
 .product-detail h4
 {
