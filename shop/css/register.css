@@ -101,81 +101,71 @@
     cursor: pointer;
 }
 /*header结束*/
-
-/*login开始*/
-#login-all{
-    padding-top: 56px;
+/*registr开始*/
+#register{
+    padding: 60px;
     height: 600px;
 }
-.login-left{
+.register-left{
     width: 570px;
-    height: 290px;
     float: left;
-    display: block;
 }
-.login-left label input{
-    width: 380px;
-    height: 20px;
-    padding: 8px;
-    boder-color:#5d5959；
-    font-size: 20px;
-   outline: none;
-    margin-bottom: 30px;
-}
-.login-left form{
-    margin-top: 30px;
+.register-left p{
     color:#5d5959;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
-
-.login-left a{
-    color:#5d5959;
+.register-left a{
+    color: #000;
+}
+.register-left a:hover{
+    color:#ef8743;
     text-decoration: underline;
 }
-.login-left input[value="Login"]{
+.register-left label{
+    color: #5d5959;
+}
+.register-left label input {
+    width: 400px;
+    height: 20px;
+    padding: 8px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.register-left input[type="submit"]{
+    width: 416px;
+    height: 40px;
     background: #ef8743;
+    border: none;
+    font-size: 18px;
     color: #ffffff;
-    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
 }
-.login-left input[value="Login"]:hover{
+.register-left input[type="submit"]:hover{
+    background: #fff;
     color: #000;
-    background: #ffffff;
     border: 1px solid #000;
+
+
 }
-.login-right{
+.register-right{
     float: left;
     width: 570px;
 }
-.login-right h3{
-    color:#ef8743;
-    margin-bottom: 10px;
-}
-.login-right p{
-    color: #5d5959;
-    font-size: 15px;
-}
-.login-register{
-    width: 140px;
-    height: 40px;
-    border-radius: 10px;
+.register-right h3{
+    color: #ef8743;
     margin-top: 30px;
-    margin-bottom: 10px;
-    outline: none;
-    border: none;
-    cursor: pointer;
 }
-.login-right button{
-   border: 1px solid #000;
-    color: #000;
-    font-size: 16px;
+.register-right p{
+    color: #999;
+    font-size:14px;
+    line-height: 26px;
 }
-.login-right button:hover{
-    background: #ef8743;
-    border: none;
-    color: #ffffff;
-}
-/*login结束*/
+/*register结束*/
 /*footer开始*/
-
 #footer .wrapper{
     width: 1348px;
     height: 80px;
@@ -186,8 +176,6 @@
     font-size: 30px;
     color: #4dfeee
 }
-
-
 
 
 
