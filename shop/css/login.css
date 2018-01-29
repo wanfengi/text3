@@ -90,7 +90,7 @@
 #submenu .second-nav:hover{
     background: #ffffff;
 }
-.wrapper P{
+.wrapper>P{
     color: #ffffff;
     position: relative;
     top: 90px;
@@ -99,92 +99,58 @@
 }
 /*header结束*/
 
-
-/*/!*special-brand*开始/*/
-#special-brand{
-    padding: 30px;
+/*login开始*/
+#login-all{
+    padding-top: 56px;
 }
-#special-brand img{
-    margin-right: 15px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-/*special-brand结束*/
-/*product开始*/
-#product{
-    height: 1000px;
-}
-.product-info{
-    width: 340px;
-    height: 440px;
-    border: 1px solid moccasin;
+.login-left{
+    width: 570px;
+    height: 290px;
     float: left;
-    margin-top: 40px;
-    margin-right: 20px;
-}
-.product-info .new{
-    background: #fa558f;
-    color: #ffffff;
-    padding: 10px;
-    font-size: 10px;
-    float: right;
-
-}
-.product-info img{
-    width: 248px;
-    height: 248px;
-    border: 1px solid moccasin;
-}
-#product-detail{
-    background: #aaaaaa;;
-}
-.product-detail h4
-{
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.product-detail h3{
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 30px;
-}
-.input{
-    width: 180px;
-    height: 25px;
-    margin-top: 10px;
-    text-indent: 10px;
-}
-.buycar{
-    background: darkorange;
-    width: 150px;
-    height: 40px;
     display: block;
-    text-align: center;
-    line-height: 40px;
-    color: #ffffff;
-    margin-top: 10px;
+}
+.login-left label input{
+    width: 380px;
+    height: 20px;
+    padding: 8px;
+    boder-color:#5d5959；
     font-size: 20px;
-    cursor: pointer;
+   outline: none;
+}
+.login-left form{
+    margin-top: 30px;
+    color:#5d5959;
+}
+.login-left input[type="text"]{
+    margin-bottom: 30px;
+}
+.login-left a{
+    color:#5d5959;
+    text-decoration: underline;
 }
 
-
-
-/*product结束*/
-/*footer开始*/
-
-
-#footer .wrapper{
-    width: 1348px;
-    height: 80px;
-    background:#fa558f ;
+.login-right{
+    float: left;
+    width: 570px;
 }
-.footer-text div{
-    text-align: center;
-    font-size: 30px;
-    color: #4dfeee
+.login-right h3{
+    color:#ef8743;
+    margin-bottom: 10px;
+}
+.login-right p{
+    color: #5d5959;
+    font-size: 15px;
+}
+.login-register{
+    width: 114px;
+    height: 40px;
+    
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+
 }
 
-
-/*footer结束*/
+/*login结束*/
