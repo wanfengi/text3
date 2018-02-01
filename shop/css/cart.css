@@ -1,0 +1,115 @@
+/*cart-all¿ªÊ¼*/
+#cart-all{
+    height: 710px;
+    padding: 56px 0px;
+}
+#cart-all .cart-thing{
+    width: 840px;
+    height: 280px;
+}
+.cart-left{
+    width: 840px;
+    height: 490px;
+    padding: 16px;
+    float: left;
+}
+#cart-all img{
+    width: 134px;
+    height: 134px;
+    padding: 14px;
+    float: left;
+}
+#cart-all h2{
+    margin-bottom: 20px;
+}
+#cart-all .close{
+    background: url("../img/close.png");
+    width: 28px;
+    height: 28px;
+    float: right;
+}
+#cart-all .cart-info{
+    float: left;
+    width: 626px;
+    height: 200px;
+}
+#cart-all .cart-info h4{
+    font-size: 14px;
+    color: #333;
+}
+#cart-all .cart-number{
+    padding-top: 80px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+#cart-all .cart-number .price{
+    font-size: 25px;
+    margin-right: 100px;
+}
+#cart-all .cart-number input {
+    width: 56px;
+    height: 20px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    color: #555;
+}
+#cart-all .time{
+    color: #A6A6A6;
+    font-size: 14px;
+}
+#cart-all .time .arrive{
+    margin-left: 440px;
+}
+#cart-all .cart-right{
+    width: 220px;
+    height: 320px;
+    float: right;
+    padding:80px 15px 0px 15px;
+    border-left: 1px solid #000;
+
+}
+ .cart-right .price-detail{
+    height: 240px;
+     padding-top: 50px;
+}
+.cart-right .btn{
+    width: 180px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-size:14px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.cart-right .continue{
+    background: orange;
+
+}
+.cart-right .continue:hover{
+    background: #1B242F;
+}
+
+.cart-right .submit{
+    width: 200px;
+    background:#1B242F;
+    margin-left: 20px;
+}
+.cart-right .submit:hover{
+    background:orange;
+}
+.price-detail .description{
+    margin-bottom: 20px;
+}
+.price-detail .gap{
+    margin-right:80px;
+}
+.price-detail .sum{
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    padding-top: 10px;
+font-weight:bolder;
+}
+/*cart-all½áÊø*/

@@ -2,12 +2,10 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>注册</title>
+    <title>购物车</title>
     <link rel="stylesheet" href="css/common.css"/>
-    <link rel="stylesheet" href="css/register.css"/>
+    <link rel="stylesheet" href="css/cart.css"/>
 </head>
-
-
 <body>
 <div id="header">
 
@@ -26,10 +24,12 @@
                 </div>
             </a>
 
+
+
         </div>
         <div id="nav">
             <ol>
-                <li><a  href="index.html">首页</a></li>
+                <li><a  href="">首页</a></li>
                 <li id="makeup">
                     <a href="">美妆商城</a>
                     <div id="submenu">
@@ -94,57 +94,67 @@
         </div>
     </div>
 </div>
-<div id="register">
+<div id="cart-all">
     <div class="wrapper">
-        <h1>注册账号</h1>
-        <div class="register-left">
+        <div class="cart-left">
+<div class="cart-thing">
+    <h2>我的购物车（2）</h2>
+    <img src="img/pic-2.jpg" alt=""/>
+    <div class="cart-info">
+        <h4>科颜氏高保湿精华爽肤水250ml</h4>
 
-            <p>
-                请按按照以下步骤来哦！<br/>
-                如果已经注册过了请
-                <a href="login.html">点击这里</a>
-            </p>
+       <div class="cart-number">
+              <span>价格：¥</span><span class="price">160.00</span>
+           数量：<input type="number"/>
+       </div>
+        <div class="time">
+            <span>优惠: ¥10.00</span>
+            <span class="arrive">预计3-5天送达</span>
+        </div>
+    </div>
 
-            <form action="">
-                <label>
-                    用户名: <br/> <input type="text"/>
-                </label>
-                <br/>
-                <label>
-                    邮箱：<br/><input type="text"/>
-                </label>
-                <br/>
-                <label>
-                    密码: <br/> <input type="password"/><br/>
-                </label>
-                <label>
-                    请再次确认密码: <br/> <input type="password"/><br/>
-                </label>
-                <label>
-                    电话号：<br/><input type="text"/>
-                </label>
-                <br/>
-                <input type="submit" value="立即注册" />
-            </form>
+    <div class="close"></div>
+</div>
+            <div class="cart-thing">
+                <img src="img/pic-1.jpg" alt=""/>
+                <div class="cart-info">
+                    <h4>兰蔻(Lancome)清滢柔肤水</h4>
+
+                    <div class="cart-number">
+                        <span>价格：¥</span><span class="price">160.00</span>
+                        数量：<input type="number"/>
+                    </div>
+                    <div class="time">
+                        <span>优惠: ¥10.00</span>
+                        <span class="arrive">预计3-5天送达</span>
+                    </div>
+                </div>
+
+                <div class="close"></div>
+            </div>
+
 
         </div>
-<div class="register-right">
-    <h3>正品保证</h3>
-    <p>我的小店只从品牌方、代理商、国内外专柜等正规渠道采购！
-        所有供应商均对公司的资质进行严格审核，确保供应商品牌授权资质。
-        同时，我的小店和国内外顶级品牌强力合作，签订战略采购协议，
-        确保出售商品货真价廉！</p>
-    <h3>产品质量保证</h3>
-    <p>我的小店严把采购渠道，坚持只从厂家、代理商、国内外专柜以及资深供
-        货商合作等可信渠道采购商品，直接通过生产厂家或总代理等授权供
-        货渠道直接进货。同时，我的小店与国内外多家知名化妆品牌建立强有
-        力合作关系，开设官方授权旗舰店，为消费者提供100%可靠放心
-        的来源和质量保证。</p>
+        <div class="cart-right">
+     <button class="btn continue">继续购物</button>
+            <div class="price-detail">
+                <p class="description">价格详述</p>
+                <span class="gap">总计</span><span>350.00</span><br/>
+                <span class="gap">优惠</span><span>----</span><br/>
+                <span class="gap">运费</span><span>10.00</span><br/>
+               <div class="sum">
+                   <span class="gap">总计</span><span>360.00</span>
+               </div>
+            </div>
+            <button class="btn submit">提交订单</button>
+        </div>
 
-</div>
 
 
     </div>
+
+
+
 </div>
 <div id="footer">
     <div class="wrapper">
