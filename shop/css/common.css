@@ -133,7 +133,9 @@ li{
     font-size: 30px;
     color: #4dfeee
 }
-
+.float{
+    float: left;
+}
 
 
 

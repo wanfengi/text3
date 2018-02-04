@@ -1,7 +1,119 @@
+#single{
+    height: 614px;
+    margin-top: 50px;
+}
+#single .single-pic{
+    width: 494px;
+    overflow: hidden;
+}
 #single .big-pic img{
     width: 480px;
     height: 400px;
     padding: 6px;
     border: 1px solid #eeeeee;
-    margin-top: 40px;
+
+}
+#single .small-pic{
+    width:800px;
+}
+#single .small-pic img{
+    width: 150px;
+    height: 126px;
+    padding: 3px;
+    border-right: 1px solid #eeeeee;
+    float: left;
+    margin-right: 10px;
+}
+#single .single-info{
+    width: 570px;
+    margin-left: 56px;
+}
+#single .single-info h3{
+    margin-bottom: 6px;
+}
+#single .single-info h6{
+    color:#cdcdcd;
+    margin-bottom: 12px;
+}
+#single o .price{
+    color: #fa558f;
+    margin-top: 12px;
+    font-size: 24px;
+}
+#single  .num{
+    margin-top: 15px;
+}
+#single  .num input{
+    margin-left: 10px;
+    width: 48px;
+    height: 18px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+    outline: none;
+}
+.add{
+    width: 156px;
+    height: 40px;
+    color: #ffffff;
+    background:#3c3b3b;
+    border:none;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.add:hover{
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #000000;
+}
+#single .type{
+    color:#787878;
+    padding-bottom: 20px;
+}
+#single .type-type{
+    padding-top: 20px;
+    border-top: 1px solid #ff530d;
+}
+#single .type-brand{
+    border-bottom: 1px solid #ff530d;
+    margin-bottom: 20px;
+}
+#single .type a{
+    color:#ff530d;
+    font-size:12px;
+}
+#single h5{
+    color: #333333;
+    font-size: 14px;
+}
+#single .description{
+    margin-top: 10px;
+    color: #999;
+    font-size: 12px;
+    line-height: 25px;
+}
+#products{
+    height: 500px;
+}
+#products h4{
+    background: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#products .related-products{
+    width: 266px;
+    height: 344px;
+    padding: 0px 6px;
+    float: left;
+    text-align: center;
+}
+#products .related-products img{
+    width: 256px;
+    height: 256px;
+}
+#products .related-products a{
+    color: #333;
+}
+#products .related-products a:hover{
+    color: #ff530d;
 }
