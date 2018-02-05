@@ -1,0 +1,12 @@
+label{
+    width: 220px;
+    height: 21px;
+    cursor: pointer;
+    margin-left: 15px;
+      display: block;
+    margin-bottom: 10px;
+
+}
+label input{
+    cursor:pointer;
+}
