@@ -11,11 +11,11 @@
     top: 100px;
     left: 100px;
 }
-/*#third{*/
-    /*background: #ffff00;*/
-    /*width: 200px;*/
-    /*height: 200px;*/
-/*}*/
+#third{
+    background: #ffff00;
+    width: 200px;
+    height: 200px;
+}
 .position div{
     float: left;
 }
